@@ -1,0 +1,5 @@
+public String firstHalf(String str) {
+  int i = 0;
+  int l = str.length()/2;
+  return str.substring(i,l);
+}

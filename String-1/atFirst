@@ -1,0 +1,11 @@
+public String atFirst(String str) {
+  if(str.length() < 2){
+    if(str.isEmpty()){
+      return "@@";
+    }else{
+      return str+"@";
+    }
+  }else{
+    return str.substring(0,2);
+  }
+}

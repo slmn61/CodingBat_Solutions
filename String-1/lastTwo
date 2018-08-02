@@ -1,0 +1,11 @@
+public String lastTwo(String str) {
+  int last = str.length()-1;
+  int before_last = last-1;
+  char temp;
+  String nstr = str;
+
+  if(str.length() >= 2){
+    nstr = str.substring(0,before_last)+str.substring(last,last+1)+str.substring(before_last,last);
+  }
+  return nstr;
+}

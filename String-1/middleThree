@@ -1,0 +1,6 @@
+public String middleThree(String str) {
+  int first = str.length()/2-1;
+  int l = first + 3;
+
+  return str.substring(first, l);
+}

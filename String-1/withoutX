@@ -1,0 +1,19 @@
+public String withoutX(String str) {
+  String nstr = str;
+  if(str.length() > 1){
+
+
+    if(nstr.substring(0,1).equals("x")){
+    nstr = nstr.substring(1,nstr.length());
+  }
+
+  if(nstr.substring(nstr.length()-1, nstr.length()).equals("x")){
+    nstr = nstr.substring(0,nstr.length()-1);
+  }
+  }else{
+    nstr = "";
+  }
+
+
+  return nstr;
+}

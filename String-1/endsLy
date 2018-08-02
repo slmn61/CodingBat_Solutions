@@ -1,0 +1,11 @@
+public boolean endsLy(String str) {
+  int l = str.length();
+  if(l >= 2){
+    if(str.substring(l-2, l).equals("ly")){
+      return true;
+    }
+  }else{
+    return false;
+  }
+  return false;
+}

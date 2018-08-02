@@ -1,0 +1,10 @@
+public String withouEnd2(String str) {
+  int i = 1;
+  int j = str.length();
+
+  if(j < 2){
+    return "";
+  }else{
+    return str.substring(i, j-1);
+  }
+}
